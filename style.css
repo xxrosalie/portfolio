@@ -217,3 +217,82 @@ body {
     height: 200px;
 }
 
+.container-new-york {
+    display: flex;
+    gap: 20px;
+    padding: 45px;
+    justify-content: center;
+    background-color: rgba(79, 61, 45, 0.838);
+    margin-top: 45px;
+    border: 3px solid;
+}
+
+.new-york-block{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.new-york-image-container {
+    display: flex;
+    gap: 20px;
+    padding: 45px;
+    justify-content: center;
+    margin-top: 45px;
+    border: 3px solid;
+}
+
+.new-york-image-1 {
+    width: 20;
+    height: 30;
+    margin-bottom: 40px;
+}
+
+.new-york-image-2 {
+    width: 20;
+    height: 30;
+    margin-bottom: 40px;
+}
+
+.new-york-image-3 {
+    width: 20;
+    height: 30;
+    margin-bottom: 40px;
+}
+
+.new-york-image-4 {
+    width: 20;
+    height: 30;
+    margin-bottom: 40px;
+}
+
+.new-york-image-1 img {
+    width: 20;
+    height: 30;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.new-york-image-2 img {
+    width: 20;
+    height: 30;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.new-york-image-3 img {
+    width: 20;
+    height: 30;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.new-york-image-4 img {
+    width: 20;
+    height: 30;
+    border-radius: 20px;
+    border: 2px solid black;
+}
