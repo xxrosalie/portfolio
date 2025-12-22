@@ -372,3 +372,76 @@ body {
     color: black; 
     border-radius: 20px;  
 }
+
+.container-pottery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    justify-content: center;
+    background-color: rgb(247, 67, 115);
+    margin-top: 145px;
+    margin-bottom: -100px;
+    border: 3px solid;
+}
+
+.pottery-block{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    color:#ffffff;
+    margin-top: 25px;
+}
+
+.pottery-image-container {
+    display: flex;
+    gap: 40px;
+    padding: 45px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.pottery-image-1 {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.pottery-image-2 {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.pottery-image-3 {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.pottery-image-1 img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.pottery-image-2 img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.pottery-image-3 img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
