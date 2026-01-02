@@ -109,7 +109,7 @@ body {
 }
 
 .image-block img {
-    width: 520px;
+    width: 480px;
     height: 640px;
     border-radius: 20px;
     border: 2px solid black;
@@ -127,6 +127,7 @@ body {
 .contact {
     text-align: center;
     width: fit-content;
+    padding: 10px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: -30px;
