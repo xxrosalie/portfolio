@@ -976,7 +976,7 @@ body {
 
 .newyork-paper-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background-color: rgb(255, 189, 206);
     border: 3px solid;
     margin-bottom: 45px;
     display: flex;
@@ -985,6 +985,23 @@ body {
 }
 
 .newyork-paper-pdf {
+    width: 900px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.final-paper-container {
+    padding: 45px;
+    background-color: rgba(79, 61, 45, 0.838);
+    border: 3px solid;
+    margin-top: 145px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.final-paper-pdf {
     width: 900px;
     height: 500px;
     margin-bottom: 10px;
