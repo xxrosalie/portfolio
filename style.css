@@ -278,7 +278,7 @@ body {
     font-size: 20px;
     color:#000000;
     background-color: white;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .new-york-image-container {
@@ -524,7 +524,15 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-top: -10px;
+    padding: 3px;
+    border-radius: 15px;
+    color: white;
+    
+    /* Gradient instead of white */
+    background: linear-gradient(135deg, rgb(247, 67, 115), rgb(255, 189, 206));
+    width: fit-content;
+    margin: 0 auto; 
+    
 }
 
 .container-academics-2 {
@@ -687,7 +695,12 @@ body {
 
 .prague-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background: linear-gradient(
+    54deg,
+    rgba(171, 160, 150, 0.95),
+    rgba(79, 61, 45, 0.95),
+    rgba(54, 33, 14, 0.95)
+    );
     border: 3px solid;
     margin-top: 45px;
 }
@@ -870,7 +883,12 @@ body {
 
 .ireland-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background: linear-gradient(
+    54deg,
+    rgba(171, 160, 150, 0.95),
+    rgba(79, 61, 45, 0.95),
+    rgba(54, 33, 14, 0.95)
+    );
     border: 3px solid;
     margin-top: 45px;
 }
@@ -993,7 +1011,12 @@ body {
 
 .research-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background: linear-gradient(
+    54deg,
+    rgba(171, 160, 150, 0.95),
+    rgba(79, 61, 45, 0.95),
+    rgba(54, 33, 14, 0.95)
+    );
     border: 3px solid;
     margin-top: 45px;
 }
