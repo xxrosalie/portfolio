@@ -5,22 +5,39 @@ body {
 
 /** Style the header. */
 .header {
-    padding: 20px;
+    max-width: 1500px;
+    margin: 5px auto;
+    padding: 10px 10px;
+    background: linear-gradient(
+        160deg,
+        rgb(247, 67, 115),
+        rgb(255, 189, 206),
+        white
+    );
+    background-size: 300% 300%;
+    background-position: 0% 50%;
+    border-radius: 30px;
     text-align: center;
-    background: rgb(255, 189, 206);
-    color: black;
-    border: 3px solid;
+    color: white;
+    animation: shimmer 7s linear infinite;
 }
 
 .header h1 {
     font-size: 60px;
     border-top: 4px dotted #fff;
     border-bottom: 4px dotted #fff;
+    
+}
+
+@keyframes shimmer {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .header p {
     font-size: 20px;
-    margin-top: -20px;
+    margin-top: -30px;
     color: #ffffffff;
 }
 
@@ -91,6 +108,12 @@ body {
     background-color: rgba(79, 61, 45, 0.838);
     margin-top: 45px;
     border: 3px solid;
+    background: linear-gradient(
+    54deg,
+    rgba(171, 160, 150, 0.95),
+    rgba(79, 61, 45, 0.95),
+    rgba(54, 33, 14, 0.95)
+    );
 }
 
 .intro-block{
@@ -127,12 +150,27 @@ body {
 .contact {
     text-align: center;
     width: fit-content;
-    padding: 10px;
+    height: fit-content;
+    padding: 3px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: -30px;
     border: 2px solid black;
     border-radius: 20px;
+}
+
+.contact a {
+    text-decoration: none;    
+    color: rgb(247, 67, 115);            
+    font-weight: 1000;
+    align-items: center;
+    gap: 6px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+    opacity: 0.5;
+    transform: translateY(-2px);  /* subtle hover lift */
 }
 
 .container-honors {
