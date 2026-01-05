@@ -231,30 +231,44 @@ body {
     border-radius: 20px;
     border: 2px solid black;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     background-color: rgb(255, 189, 206);
     width: 800px;
     height: 200px;
+    padding: 4px;
 }
 
 .forum {
     border-radius: 20px;
     border: 2px solid black;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     background-color: rgb(255, 189, 206);
     width: 800px;
     height: 200px;
+    padding: 4px;
 }
 
 .high-impact {
     border-radius: 20px;
     border: 2px solid black;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     background-color: rgb(255, 189, 206);
     width: 800px;
     height: 200px;
+    padding: 4px;
+}
+
+.approved-coursework {
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(255, 189, 206);
+    width: 800px;
+    height: 200px;
+    padding: 4px;
 }
 
 .container-new-york {
@@ -618,25 +632,62 @@ body {
 
 .container-academics-5 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;;
     gap: 20px;
     padding: 45px;
     background-color: rgb(247, 67, 115);
-    justify-items: center; 
     align-items: start;
     margin: 45px auto;
     border: 3px solid;
 }
 
 .class-5-block {
+    width: 80%;
     font-size: 22px;
     padding: 30px;
 }
 
 .class-5-image {
-    width: 100%;
-    height: 400px;
+    margin-left: -200px;
+    width: 160%;   
+    height: 420px;
     border-radius: 10px;
+    border: 2px solid black;
+}
+
+.staunton-container {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 3px solid;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.staunton-info {
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: left;
+    font-size: 22px;
+    background-color: rgb(251, 251, 251);
+}
+
+.staunton-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;   
+    justify-content: center;
+    width: 1050px;  
+}
+
+.staunton-images img {
+    height: 300px; 
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
     border: 2px solid black;
 }
 
