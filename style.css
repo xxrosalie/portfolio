@@ -49,6 +49,7 @@ body {
     background-color: #333; 
     display: flex; 
     border-radius: 20px;   
+    border: 3px solid rgb(255, 255, 255);
     width: fit-content;
     margin: -20px auto;
     padding: 0;
@@ -918,7 +919,7 @@ body {
 
 .prague-paper-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background-color: rgb(255, 189, 206);
     border: 3px solid;
     margin-top: 45px;
     display: flex;
@@ -1046,7 +1047,7 @@ body {
 
 .ireland-paper-container {
     padding: 45px;
-    background-color: rgba(79, 61, 45, 0.838);
+    background-color: rgb(255, 189, 206);
     border: 3px solid;
     margin-top: 45px;
     display: flex;
@@ -1082,7 +1083,7 @@ body {
     margin-bottom: 25px;
     border: 3px solid;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 67, 115);
 }
 
 .research-row {
@@ -1093,14 +1094,30 @@ body {
 }
 
 .research-class-block-1 {
-    width: 1300px;
-    height: 500px;
+    width: 2600;
+    height: 580px;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
     font-size: 22px;
-    background-color: rgb(255, 189, 206);
+    background-color: rgb(255, 255, 255);
+}
+
+.quantum-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;   
+    justify-content: right;
+    width: 100%;  
+}
+
+.quantum-images img {
+    height: 630px; 
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .newyork-paper-container {
@@ -1135,6 +1152,5 @@ body {
     height: 500px;
     margin-bottom: 10px;
 }
-
 
 
