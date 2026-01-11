@@ -208,14 +208,14 @@ body {
 .image-honors-block {
     flex: 3;
     width: 100%;
-    min-height: 600px;
-    max-width: 1000px;
+    min-height: 620px;
+    max-width: 1500px;
     margin-bottom: 40px;
 }
 
 .image-honors-block img {
     width: 100%;
-    min-height: 600px;
+    min-height: 620px;
     border-radius: 20px;
     border: 2px solid black;
 }
@@ -702,7 +702,8 @@ body {
     gap: 20px;
     padding: 45px;
     background-color: rgb(253, 253, 253);
-    justify-items: center; 
+    justify-content: center;   
+    align-items: flex-start;
     border: 3px solid;
     margin-top: 45px;
     margin-bottom: 45px;
