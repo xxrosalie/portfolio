@@ -858,7 +858,8 @@ body {
 }
 
 .prague-class-image-1-1 img{
-    width: 30%;
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px;
     border: 2px solid black;
@@ -912,7 +913,8 @@ body {
 }
 
 .prague-class-image-2-2 img{
-    width: 30%;
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px;
     border: 2px solid black;
