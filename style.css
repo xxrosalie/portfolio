@@ -829,7 +829,7 @@ body {
 }
 
 .prague-class-image-1 {
-    flex: 3;
+    flex: 2;
     display: flex;
     gap: 15px;
     align-items: stretch; 
@@ -837,7 +837,6 @@ body {
 
 .prague-row-1-1 {
     display: flex;
-    gap: 40px;
     align-items: stretch;     
 }
 
@@ -852,7 +851,7 @@ body {
 }
 
 .prague-class-image-1-1 {
-    flex: 3;
+    flex: 2;
     display: flex;
     gap: 15px;
     align-items: stretch; 
@@ -860,7 +859,6 @@ body {
 
 .prague-class-image-1-1 img{
     width: 30%;
-    height: 60%;
     object-fit: cover;
     border-radius: 15px;
     border: 2px solid black;
@@ -876,26 +874,12 @@ body {
     margin-bottom: 25px;
     border: 3px solid;
     border-radius: 20px;
-    background-color: rgb(255, 189, 206);
+    background-color: #ffbdce;
 }
 
 .prague-class-block-2 {
-    width: 300px;
-    height: 450px;
+    flex: 1;
     padding: 25px;
-    border-radius: 20px;
-    border: 2px solid black;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 20px;
-    background-color: rgb(247, 67, 115);
-}
-
-.prague-class-block-2-2 {
-    width: 200px;
-    height: 220px;
-    padding: 25px;
-    margin-left: 120px;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
@@ -904,18 +888,33 @@ body {
 }
 
 .prague-class-image-2 {
+    flex: 2;
     display: flex;
-    flex-direction: row;
     gap: 15px;
-    width: 900px;
-    height: 500px;
-    margin-bottom: -250px;
+    align-items: stretch; 
 }
 
-.prague-class-image-2 img{
-    width: 220px;
-    height: 270px;
-    border-radius: 10px;
+.prague-class-block-2-2 {
+    flex: 1;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(247, 67, 115);
+}
+
+.prague-class-image-2-2 {
+    flex: 3;
+    display: flex;
+    gap: 15px;
+    align-items: stretch; 
+}
+
+.prague-class-image-2-2 img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 15px;
     border: 2px solid black;
 }
 
@@ -1012,13 +1011,11 @@ body {
 .ireland-row {
     display: flex;
     gap: 40px;
-    align-items: flex-start; /* block and PDF side by side */
-    justify-content: center;
+    align-items: stretch;
 }
 
 .ireland-class-block-1 {
-    width: 300px;
-    height: 500px;
+    flex: 1;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
@@ -1029,17 +1026,19 @@ body {
 
 .ireland-class-image-1 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 900px;
-    height: 500px;
-    margin-bottom: -100px;
+    flex-wrap: wrap;        
+    gap: 15px;
+    flex: 1;
+    align-items: stretch; 
+    justify-content: center; 
+    box-sizing: border-box;
 }
 
 .ireland-class-image-1 img{
-    width: 430px;
-    height: 270px;
-    border-radius: 10px;
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
     border: 2px solid black;
 }
 
@@ -1057,22 +1056,8 @@ body {
 }
 
 .ireland-class-block-2 {
-    width: 300px;
-    height: 450px;
+    flex: 1;
     padding: 25px;
-    border-radius: 20px;
-    border: 2px solid black;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-}
-
-.ireland-class-block-2-2 {
-    width: 200px;
-    height: 220px;
-    padding: 25px;
-    margin-left: 120px;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
@@ -1082,18 +1067,12 @@ body {
 
 .ireland-class-image-2 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;        
     gap: 15px;
-    width: 900px;
-    height: 500px;
-    margin-bottom: -250px;
-}
-
-.ireland-class-image-2 img{
-    width: 220px;
-    height: 270px;
-    border-radius: 10px;
-    border: 2px solid black;
+    flex: 2;
+    align-items: stretch; 
+    justify-content: center; 
+    box-sizing: border-box;
 }
 
 .ireland-paper-container {
@@ -1140,34 +1119,34 @@ body {
 .research-row {
     display: flex;
     gap: 40px;
-    align-items: flex-start; 
-    justify-content: center;
+    align-items: stretch;
 }
 
 .research-class-block-1 {
-    width: 2600;
-    height: 580px;
+    flex: 2;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     background-color: rgb(255, 255, 255);
 }
 
 .quantum-images {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;   
-    justify-content: right;
-    width: 100%;  
+    flex-wrap: wrap;        
+    gap: 15px;
+    flex: 1;
+    align-items: stretch; 
+    justify-content: center; 
+    box-sizing: border-box; 
 }
 
 .quantum-images img {
-    height: 630px; 
-    width: 400px;
+    flex: 1;
+    width: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 2px solid black;
 }
 
