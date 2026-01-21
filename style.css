@@ -106,10 +106,9 @@ body {
     display: flex;
     gap: 20px;
     padding: 45px;
-    justify-content: center;
-    align-items: center;
+    align-items: stretch;
     background-color: rgba(79, 61, 45, 0.838);
-    margin-top: 45px;
+    margin: 45px auto;
     border: 3px solid;
     background: linear-gradient(
     54deg,
@@ -120,8 +119,7 @@ body {
 }
 
 .intro-block{
-    max-width: 500px;
-    height: 600px;
+    flex: 1;
     border-radius: 20px;
     border: 2px solid black;
     padding: 20px;
@@ -130,13 +128,14 @@ body {
 }
 
 .image-block {              
-    width: 520px;
-    height: 640px;
+    flex: 1;
+    overflow: hidden;
 }
 
 .image-block img {
-    width: 480px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 20px;
     border: 2px solid black;
 }
@@ -179,7 +178,7 @@ body {
 .container-honors {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: stretch;
     padding: 45px;
     justify-content: center;
     background: linear-gradient(
@@ -194,9 +193,7 @@ body {
 
 .honors-block{
     flex: 1;
-    max-width: 700px;
-    width: 100%;
-    min-height: 560px;
+    align-items: stretch;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
@@ -207,15 +204,13 @@ body {
 
 .image-honors-block {
     flex: 3;
-    width: 100%;
-    min-height: 620px;
-    max-width: 1500px;
-    margin-bottom: 40px;
+    display: flex;
 }
 
 .image-honors-block img {
     width: 100%;
-    min-height: 620px;
+    height: 100%;
+     object-fit: cover;
     border-radius: 20px;
     border: 2px solid black;
 }
@@ -461,7 +456,7 @@ body {
     display: flex;
     gap: 20px;
     padding: 45px;
-    justify-content: center;
+    align-items: stretch;
     background: linear-gradient(
     54deg,
     rgba(171, 160, 150, 0.95),
@@ -473,7 +468,7 @@ body {
 }
 
 .education-block {
-    z-index: 1;
+    flex: 1;
     max-width: 500px;
     width: 100%;
     min-height: 350px;
@@ -486,16 +481,13 @@ body {
 }
 
 .image-education-block {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    z-index: 0;                 
-    max-width: 600px;
-    width: 100%;
+    flex: 1;
+    display: flex; 
 }
 
 .image-education-block img {
-    min-height: 400px; 
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px;
     border: 2px solid black;
@@ -697,36 +689,36 @@ body {
 
 .staunton-container {
     display: flex;
-    flex-direction: row;       /* put text and images next to each other */
-    flex-wrap: wrap; 
     gap: 20px;
     padding: 45px;
     background-color: rgb(253, 253, 253);
     justify-content: center;   
-    align-items: flex-start;
+    align-items: stretch;
     border: 3px solid;
     margin-top: 45px;
     margin-bottom: 45px;
 }
 
 .staunton-text {
-    max-width: 280px;
-    max-height: 270px;
+    flex: 1;
+    font-size: 22px;
+    max-width: 300px;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid black;
 }
 
 .staunton-images {
+    flex: 2;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap: 15px;
-    justify-content: center;
+    align-content: flex-start;
 }
 
 .staunton-images img {
-    height: 300px; 
-    width: 250px;
+    width: clamp(200px, 30%, 250px);
+    aspect-ratio: 5 / 6;     
     object-fit: cover;
     border-radius: 20px;
     border: 2px solid black;
@@ -823,13 +815,11 @@ body {
 .prague-row {
     display: flex;
     gap: 40px;
-    align-items: flex-start; /* block and PDF side by side */
-    justify-content: center;
+    align-items: stretch;
 }
 
 .prague-class-block-1 {
-    width: 300px;
-    height: 450px;
+    flex: 1;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
@@ -839,17 +829,20 @@ body {
 }
 
 .prague-class-image-1 {
+    flex: 3;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 900px;
-    height: 500px;
-    margin-bottom: -100px;
+    gap: 15px;
+    align-items: stretch; 
+}
+
+.prague-row-1-1 {
+    display: flex;
+    gap: 40px;
+    align-items: stretch;     
 }
 
 .prague-class-block-1-1 {
-    width: 300px;
-    height: 350px;
+    flex: 1;
     padding: 25px;
     border-radius: 20px;
     border: 2px solid black;
@@ -858,10 +851,18 @@ body {
     background-color: rgb(255, 189, 206);
 }
 
-.prague-class-image-1 img{
-    width: 300px;
-    height: 400px;
-    border-radius: 10px;
+.prague-class-image-1-1 {
+    flex: 3;
+    display: flex;
+    gap: 15px;
+    align-items: stretch; 
+}
+
+.prague-class-image-1-1 img{
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
     border: 2px solid black;
 }
 
