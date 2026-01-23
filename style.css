@@ -780,6 +780,33 @@ body {
     width: 100%;
 }
 
+.container-academics-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 45px;
+    margin-top: 45px;
+    background-color: rgb(255, 189, 206);
+    justify-items: center; 
+    border: 3px solid;
+}
+
+.class-8-block {
+    font-size: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.class-8-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    justify-self: center;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
 .class-7-image img {
     max-width: 600px;
     width: 100%;
@@ -797,6 +824,8 @@ body {
     );
     border: 3px solid;
     margin-top: 45px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .prague-classes-container {
@@ -810,6 +839,9 @@ body {
     border: 3px solid;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 .prague-row {
@@ -837,30 +869,37 @@ body {
 
 .prague-row-1-1 {
     display: flex;
-    align-items: stretch;     
+    align-items: stretch;  
+    gap: 20px;   
+    height: clamp(240px, 28vw, 360px);
 }
 
 .prague-class-block-1-1 {
-    flex: 1;
-    padding: 25px;
+    display: flex;
+    flex: 1 1 200px;
+    min-width: 200px;
+    padding: 15px;
+    align-items: stretch;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
     font-size: 20px;
     background-color: rgb(255, 189, 206);
+    overflow: auto;
 }
 
 .prague-class-image-1-1 {
-    flex: 2;
+    flex: 1 1 200px;
+    min-width: 200px;
+    height: 100%;
     display: flex;
     gap: 15px;
-    align-items: stretch; 
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 .prague-class-image-1-1 img{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 15px;
     border: 2px solid black;
 }
@@ -896,26 +935,31 @@ body {
 }
 
 .prague-class-block-2-2 {
-    flex: 1;
-    padding: 25px;
+    display: flex;
+    flex: 1 1 200px;
+    min-width: 200px;
+    padding: 15px;
+    align-items: stretch;
     border-radius: 20px;
     border: 2px solid black;
     text-align: left;
     font-size: 20px;
+    overflow: auto;
     background-color: rgb(247, 67, 115);
 }
 
 .prague-class-image-2-2 {
-    flex: 3;
+    flex: 1 1 200px;
+    min-width: 200px;
+    height: 100%;
     display: flex;
     gap: 15px;
-    align-items: stretch; 
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 .prague-class-image-2-2 img{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 15px;
     border: 2px solid black;
 }
@@ -1027,18 +1071,17 @@ body {
 }
 
 .ireland-class-image-1 {
-    display: flex;
-    flex-wrap: wrap;        
-    gap: 15px;
     flex: 1;
-    align-items: stretch; 
-    justify-content: center; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;       
+    gap: 15px;
     box-sizing: border-box;
 }
 
 .ireland-class-image-1 img{
-    flex: 1;
     width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px;
     border: 2px solid black;
