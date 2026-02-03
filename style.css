@@ -681,7 +681,7 @@ body {
     display: block;
     width: 100%;
     max-width: 900px;
-    height: 500px;
+    height: 350px;
     justify-self: center;
     border-radius: 12px;
     border: 2px solid black;
@@ -696,32 +696,30 @@ body {
     align-items: stretch;
     border: 3px solid;
     margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 45px 0;
 }
 
-.staunton-text {
-    flex: 1;
-    font-size: 22px;
-    max-width: 300px;
-    padding: 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-}
+.staunton-text { 
+    font-size: 20px; 
+    max-width: 300px; 
+    padding: 20px; 
+    border-radius: 20px; 
+    border: 2px solid black; 
+    flex-shrink: 0; 
+} 
 
-.staunton-images {
-    flex: 2;
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 15px;
-    align-content: flex-start;
-}
+.staunton-images { 
+    display: flex; 
+    gap: 15px; 
+    flex-shrink: 1;  
+} 
 
-.staunton-images img {
-    width: clamp(200px, 30%, 250px);
-    aspect-ratio: 5 / 6;     
-    object-fit: cover;
-    border-radius: 20px;
-    border: 2px solid black;
+.staunton-images img { 
+    max-width: 200px;
+    aspect-ratio: 5 / 6; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    border: 2px solid black; 
 }
 
 .container-academics-6 {
